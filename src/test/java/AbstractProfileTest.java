@@ -39,7 +39,7 @@ public abstract class AbstractProfileTest {
      * Checks profile behavior in separate contexts:
      * - ProfileDefaultTest : no profile is activated, which means that "default" profile should prevail (i.e. Profile1Config)
      * - ProfileOneTest : "one" profile is activated, we want 'Excitement' bean coming from Profile1Config
-     * - ProfileTwoTest : "one" profile is activated, we want 'Excitement' bean coming from Profile2Config
+     * - ProfileTwoTest : "two" profile is activated, we want 'Excitement' bean coming from Profile2Config
      * Regardless of this behavior we want the beans coming from a configuration which is not profile bound
      * i.e. NotProfileBoundConfig to be present and ready for us.
      */
